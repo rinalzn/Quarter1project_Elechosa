@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1">
+	<title> TINDAKOTO PRESENTS </title>
+	<style>
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			font-family: ariel, sans-serif;
+
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+			background-color: #91BAD6;
+		}
+		.header {
+			background-color: #528AAE;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			flex-shrink: 0;
+		}
+		.main{
+			display: flex;
+			flex-grow: 1;
+		}
+
+        .sidebar{
+		width: 15%;
+		background-color: #0077b6;
+		padding: 20px;
+		box-sizing: border-box;
+		}
+
+        .sidebar ul{
+        list-style-type: none;
+        padding: 0;
+        }
+
+       .sidebar ul li{
+        margin: 30px 0;
+        }
+
+       .sidebar ul li a{
+       color: white;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 10px;
+       }
+		
+	   .main-content{
+			flex-grow: 1;
+			background-color: #91BAD6;
+			padding: 20px;
+			box-sizing: border-box;
+			overflow: auto;
+		}
+		.form-section{
+			margin-top: 20px;
+			padding: 15px;
+			background-color: #2E5984;
+			border: 1px solid #1E3F66;
+			color: white;
+		}
+		.products {
+			text-align: center;
+			font-family: "Trebuchet MS", sans-serif;
+			margin: 30px;
+			margin-bottom: 10px;
+			display: inline-block;
+			background-color: #CBC3E3;
+			border: 1px solid #800080;
+			border-radius: 8px;
+			padding: 15px;
+		}
+		.products p {
+			font-size: 16px;
+			color: black;
+		}
+
+		.members{
+			width: 190px;
+			height: auto;
+			border-radius: 20%;
+			margin: 50px;
+			margin-bottom: 0px;
+			margin-top: 10px;
+		}
+		.poster{
+			width: 190px;
+			height: auto;
+			border-radius: 20%;
+			margin: 50px;
+			margin-bottom: 0px;
+			margin-top: 10px;
+		}
+		.poster-products{
+			text-align: center;
+			font-family: "Trebuchet MS", sans-serif;
+			margin: 20px;
+			margin-bottom: 10px;
+			background-color: #CBC3E3;
+			border: 1px solid #800080;
+			border-radius: 8px;
+			padding: 15px;
+		}
+		.poster-products p {
+			font-size: 25px;
+			color: black;
+		}
+		.poster-product{
+			width: 750px;
+			height: auto;
+			border-radius: 20%;
+			margin: 50px;
+			margin-bottom: 0px;
+			margin-top: 10px;
+		}
+		.href{
+			text-decoration: underline;
+		}
+		h2 {
+			text-align: center;
+			color: black;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: #45a049;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type="text"],
+		input[type="email"],
+		input[type="address"]{
+			width: 50%;
+			padding: 8px;
+			margin: 10px 0;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+		}
+		 header {
+            text-align: center;
+            color: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			TINDAKOTO PRESENTS <br>
+		</div>
+			<header>
+			    <img src="aespabanner.jpg" alt="Header Image">
+			</header>
+		<div class="main">
+			 <div class="sidebar">
+			 	<h2>Things you might need
+			 	</h2>
+			 	<ul>
+			 		<li><a href="contactform.html">Contact form <br> (only for concerns or wrong delivery)</a></li>
+			 		<li><a href="sign-in.html">Sign In</a></li>
+			 	</ul>
+			 </div>
+
+		    <div class="main-content">
+		    	<h2>2025 Greeting cards</h2>
+                
+                <ul>
+                	<li class="products">
+                		<img src="karinagreetingcard.png" class="members">
+                		<p>Karina greeting photocard <br></p>
+                		<p>₱300<br></p>
+                		 <input type="submit" value="Add to cart">
+                	</li>
+                	
+                	<li class="products">
+                		<img src="wintergreetingcard.png" class="members">
+                		<p>Winter greeting photocard <br></p>
+                		<p>₱300</p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+                	
+                	<li class="products">
+                		<img src="gisellegreetingcard.png" class="members">
+                		<p>Giselle greeting photocard <br></p>
+                		<p>₱300 <br></p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+                	
+                	<li class="products">
+                		<img src="ningninggreetingcard.png" class="members">
+                		<p>Winter greeting photocard <br></p>
+                		<p>₱300 <br></p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+                </ul>
+                
+                <ul>
+		    	<h2>Supernova era !!!</h2>
+		    	<li class="products">
+		    		<img src="karinaphotocard.png" class="members">
+		    		<p> Karina supernova photocard <br></p>
+		    		<p>₱200 <br></p>
+		    		<input type="submit" value="Add to cart">
+		    	</li>
+
+		    	<li class="products">
+		    		<img src="winterphotocard.png" class="members">
+		    		<p> Winter supernova photocard <br></p>
+		    		<p>₱200</p>
+		    		<input type="submit" value="Add to cart">
+		    	</li>
+
+		    	<li class="products">
+		    		<img src="gisellephotocard.png" class="members">
+		    		<p>Giselle supernova photocard<br></p>
+		    		<p>₱200</p>
+		    		<input type="submit" value="Add to cart">
+		    	</li>
+
+		    	<li class="products">
+		    		<img src="ningningphotocard.png" class="members">
+		    		<p>Ningning supernova photocard</p>
+		    		<p>₱200</p>
+		    		<input type="submit" value="Add to cart">
+		    	</li>
+		    	</ul>
+		    	
+		    	<h2>Armageddon era !!!</h2>
+                <ul>
+                	<li class="products">
+                		<img src="karinaarmageddonphotocard.png" class="members">
+                		<p>Karina greeting photocard <br></p>
+                		<p>₱200<br></p>
+                		 <input type="submit" value="Add to cart">
+                	</li>
+
+                	<li class="products">
+                		<img src="winterarmageddonphotocard.png" class="members">
+                		<p>Winter greeting photocard <br></p>
+                		<p>₱200</p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+
+                	<li class="products">
+                		<img src="gisellearmageddonphotocard.png" class="members">
+                		<p>Giselle greeting photocard <br></p>
+                		<p>₱200 <br></p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+
+                	<li class="products">
+                		<img src="ningningarmageddonphotocard.png" class="members">
+                		<p>Winter greeting photocard <br></p>
+                		<p>₱200 <br></p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+                </ul>
+                
+                <ul>
+                	<h2> Armageddon poster !!! </h2>
+                	<li class="poster-products">
+                		<img src="aespaarmageddonposter.png" class="poster-product">
+                		<p>Armageddon poster<br></p>
+                		<p>₱500<br></p>
+                		<input type="submit" value="Add to cart">
+                	</li>
+                </ul>
+		    	
+		    	<div class="form-section">
+		    		<h3> Shipping Form </h3>
+		    		<form>
+		    			<label for="FullName">Full Name:</label><br> 
+		    			<input type="text" name="FullName" id="Fullname"><br><br>
+		    			
+		    			<label for="Email"> Email: </label><br>
+		    			<input type="email" id="Email" name= "Email"><br><br>
+		    			
+		    			<label>Address: </label><br>
+		    			<input type="address" id="Address" name= "Address"><br><br>
+
+		    			<input type="submit" value="Check-out">
+		    		</form>
+		    	</div>   	
+		    </div>
+		</div>
+	</div>
+</body>
+</html>

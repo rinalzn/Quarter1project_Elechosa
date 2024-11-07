@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1">
+	<title> Sign-in form </title>
+	<style>
+		body{
+			font-family: Arial, sans-serif;
+			margin: 20px;
+		}
+		.form-section{
+			margin-top: 20px;
+			padding: 15px;
+			background-color: #2E5984;
+			border: 1px solid #1E3F66;
+			color: white;
+		}
+		input[type="text"],
+		input[type="email"],
+		input[type="password"]{
+			width: 50%;
+			padding: 8px;
+			margin: 10px 0;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+		}	
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: #45a049;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		.main{
+			display: flex;
+			flex-grow: 1;
+		}
+		.sidebar{
+			width: 25%;
+			background-color: #BCD2E8;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+			background-color: #91BAD6;
+		}
+		</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			<div class="sidebar">
+				<h3> To go back:</h3>
+			<p> This is an example sidebar that uses a div element.</p>
+		    </div>
+	<form>
+	<h1>Sign-in</h1>
+	<br>
+		<label for="FullName">Enter Full Name:</label><br>
+		<input type="text" name="FullName" id="Fullname"><br><br>
+
+		<label for="Email"> Enter Your Email: </label><br>
+	    <input type="email" id="Email" name= "Email"> <br><br>
+
+		<label for="Password"> Enter Password: </label><br>
+		<input type="password" id="Password" name="Password"><br><br>
+
+		<input type="submit" value="Sign-in">
+	</form>
+</div>
+</div>
+</body>
+</html>
